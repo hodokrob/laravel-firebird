@@ -14,7 +14,7 @@ http://mapopa.blogspot.com/2009/04/php5-and-firebird-pdo-on-ubuntu-hardy.html
 Install using composer:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ json
-composer require sim1984/laravel-firebird
+composer require  hodokrob/laravel-firebird
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Update the `app/config/app.php`, add the service provider:
@@ -23,7 +23,7 @@ Update the `app/config/app.php`, add the service provider:
 'Firebird\FirebirdServiceProvider'.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-For Laravel 5.7 and later:
+For Laravel 7.0 and later:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ php
 Firebird\FirebirdServiceProvider::class,
@@ -56,8 +56,8 @@ DB_CHARSET=UTF8
 
 If necessary, change the UTF8 to any other charset
 
-This package is a branch jacquestvanzuydam/laravel-firebird package and extends
-its functionality. Tested on Laravel-5.7.
+This package is a branch sim1984/laravel-firebird package and extends
+its functionality. Tested on Laravel-8.0.
 
 Added the following features:
 
